@@ -26,7 +26,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "typescript-chained-error": "^1.5.0"
+    "typescript-chained-error": "^1.5.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
