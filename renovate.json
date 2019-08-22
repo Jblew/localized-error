@@ -1,7 +1,13 @@
 {
+    "extends": [
+        "config:base"
+    ],
     "packageRules": [{
+        "depTypeList": ["devDependencies"],
+        "enabled": false
+    }, {
         "packageNames": ["typescript-chained-error"],
-        "updateTypes": ["pin", "minor", "patch", "digest", "lockFileMaintenance", "bump"],
+        "updateTypes": ["pin", "minor", "patch"],
         "automerge": "true"
     }]
 }
