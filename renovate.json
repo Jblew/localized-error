@@ -1,0 +1,7 @@
+{
+    "packageRules": [{
+        "packageNames": ["typescript-chained-error"],
+        "updateTypes": ["pin", "minor", "patch", "digest", "lockFileMaintenance", "bump"],
+        "automerge": "true"
+    }]
+}
