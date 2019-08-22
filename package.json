@@ -2,8 +2,8 @@
   "name": "localized-error",
   "version": "0.0.0-development",
   "description": "Java-style chained custom errors for Typescript and Javascript. ('Caused by' in error stack)",
-  "main": "dist/ChainedError.js",
-  "types": "dist/ChainedError.d.ts",
+  "main": "dist/LocalizedError.js",
+  "types": "dist/LocalizedError.d.ts",
   "files": [
     "LICENSE",
     "dist/*"
