@@ -1,6 +1,7 @@
 import { LocalizedError } from "./LocalizedError";
 
-export type AugmentedLocalizedError<TYPE extends string> = LocalizedError & AugmentedLocalizedError.Augmentation<TYPE>;
+export type AugmentedLocalizedError<TYPE extends string = string> = LocalizedError &
+    AugmentedLocalizedError.Augmentation<TYPE>;
 
 export namespace AugmentedLocalizedError {
     export interface Augmentation<TYPE extends string> {
